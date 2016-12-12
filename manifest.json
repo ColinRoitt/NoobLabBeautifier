@@ -1,0 +1,12 @@
+{
+"name":"NoobLabNicifier",
+"description":"Make NoobLab Great Again (on wide screens)",
+"version":"1",
+"manifest_version":2,
+"content_scripts": [
+    {
+      "matches": ["http://www.nooblab.com/*"],
+      "js": ["NoobLabNicifier.js"]
+    }
+  ]
+}
